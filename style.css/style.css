@@ -1,0 +1,688 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: poppins, serif;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+/* ***********header****** */
+/* ************************* */
+.header-nav {
+  color: #1fa6ba;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 2rem;
+  text-transform: capitalize;
+  background-color: #e9ecef;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+.head-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+.head-flist {
+  font-size: 1.2rem;
+  font-weight: 500;
+  list-style: none;
+  padding: 0.3rem 1rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  color: #15aabf;
+}
+.head-flist:hover {
+  background-color: #15aabf;
+  color: #f2fbfc;
+
+  border: 2px solid #15aabf;
+}
+
+.flisters {
+  border: 2px solid #15aabf;
+  padding: 0.3rem 1rem;
+}
+.logo-head {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.head-img-subset {
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+}
+.head-img {
+  position: relative;
+}
+.head-con-set {
+  color: #f2fbfc;
+  background-color: #031013;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  justify-content: center;
+  align-items: start;
+  padding: 4rem 2.5rem;
+}
+
+.h-church {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.h-pray {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 3.8rem;
+  overflow-y: hidden;
+}
+.h-free {
+  font-size: 1rem;
+  font-weight: 400;
+  padding-top: 1.5rem;
+  font-style: italic;
+}
+.h-free span {
+  border-bottom: 2px solid #000;
+  font-weight: bold;
+}
+.header-bible {
+  background-color: #e9ecef;
+}
+.icon-feat {
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+  line-height: 2rem;
+}
+.icon-sub {
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: 1px solid #15aabf;
+  padding: 0.6rem 1.5rem;
+  margin-top: 1.3rem;
+  font-weight: 400;
+}
+
+.icon-sub:hover,
+.icon-sub:visited {
+  background-color: #15aabf;
+  color: #f2fbfc;
+  font-weight: 500;
+}
+.headsvg-icon {
+  padding: 1rem 1.3rem;
+  border-radius: 50%;
+  background-color: #15aabf;
+  stroke: #fff;
+}
+.icon-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 3.6rem 1.5rem;
+  row-gap: 2rem;
+  background-color: #fff;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
+  color: #031215;
+}
+.head-content {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
+
+  grid-template-columns: 45% 45%;
+  column-gap: 5rem;
+  padding: 6rem 4rem;
+  position: absolute;
+
+  transform: translateY(-40%);
+}
+.head-container {
+  background-color: #e9ecef;
+  padding-bottom: 33%;
+}
+.head-con-sub::before {
+  content: "";
+  width: 65%;
+  display: block;
+  background-color: #15aabf;
+  top: -20%;
+  left: -10%;
+
+  padding-bottom: 150%;
+  z-index: -1;
+  position: absolute;
+}
+.head-con-sub {
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 4.5rem;
+  padding-left: 2.8rem;
+  padding-top: 2.8rem;
+}
+
+/* ********online-section*****
+*************************** */
+.platform--sub {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: start;
+
+  background-color: #fff;
+  padding: 1.8rem 1.8rem;
+  padding-bottom: 3rem;
+}
+
+.plat--img {
+  background-position: center;
+  background-size: contain;
+  width: 80%;
+  padding: 0rem 2rem;
+}
+
+.platform-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 3rem 0rem;
+}
+
+.head-illustration {
+  height: 7rem;
+  width: 7rem;
+  background-color: #15aabf;
+  border-radius: 50%;
+}
+.illustration-sub {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 1.5rem;
+}
+.sub-back {
+  background-color: #fff;
+}
+
+.online-base {
+  display: flex;
+  padding: 4rem 10rem;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4.3rem;
+}
+
+.online-feat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  row-gap: 2rem;
+  padding-bottom: 5rem;
+  padding: 1.8rem;
+}
+.par--plat {
+  width: 72%;
+  height: 2.2rem;
+  background-color: #15aabf;
+}
+.headline {
+  font-size: 2.7rem;
+  word-spacing: 0.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.online-section::before {
+  content: "";
+  width: 100%;
+  padding-bottom: 53%;
+  position: absolute;
+  background-color: red;
+  display: block;
+  z-index: -1;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #d2d4d7;
+}
+.online-section {
+  position: relative;
+}
+
+/* ***********GROWING IN FAITH**********88 */
+/* **********************************8***** */
+.growth-feat {
+  width: 14%;
+  height: 0.3rem;
+  background-color: #15aabf;
+}
+.growth-sub {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  padding: 6rem 4rem;
+  padding-top: 2rem;
+}
+
+.grow-last {
+  display: flex;
+}
+
+/* **************PRAYING AT HOM/E********** */
+/* ************ */
+.pray-img {
+  width: 80%;
+  /* background-size: contain; */
+  background-position: center;
+}
+.pray-illustration {
+  border-radius: 50%;
+
+  width: 10rem;
+  height: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.9rem;
+  transform: rotate(200deg);
+  align-self: flex-start;
+  margin-left: 9rem;
+}
+.pray-first {
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 4rem;
+}
+.pray-sec {
+  padding: 0rem 4rem;
+  padding-right: 4rem;
+}
+.pray-illustration li {
+  height: 0.3rem;
+  width: 100%;
+  background-color: #000;
+  list-style: none;
+}
+
+/* **************HAND OF MAN*********** */
+/* ************************************ */
+.HOM-LEARN {
+  padding: 0.7rem 4rem;
+  background-color: #e9ecef;
+  border: none;
+  color: #000;
+}
+
+.HOM .h-free span {
+  border-bottom: 0.2rem solid #f2fbfc;
+}
+.HOM-LEARN:hover,
+.HOM-LEARN:visited {
+  background-color: #fff;
+  color: #000;
+}
+.HOM .h-free {
+  overflow: hidden;
+}
+.HOM {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 54% 40%;
+  background-color: #adb5bd;
+  color: #fff;
+  margin-top: 3rem;
+}
+.HOM-img {
+  width: 100%;
+}
+.HOM-FEAT {
+  padding-right: 2rem;
+}
+.HOM .icon-feat {
+  line-height: 1.4rem;
+  padding-top: 0.7rem;
+  word-spacing: none;
+  font-weight: 500;
+}
+
+/* ***********hom-more********** */
+
+.icon-more {
+  font-size: 0.9rem;
+  color: #343a40;
+  word-spacing: 0.1rem;
+  line-height: 1.8rem;
+}
+.pray-home {
+  position: relative;
+}
+.hom-before {
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff4f4;
+  position: absolute;
+  top: 25%;
+  left: 51.5%;
+  padding: 1.8rem 0rem;
+}
+.headline-before {
+  font-size: 2.2rem;
+  word-spacing: 0.2rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #343a40;
+}
+
+.hom-before .h-free {
+  padding-top: 1rem;
+}
+.hom-before .growth-sub {
+  row-gap: 1rem;
+}
+.hom-before .icon-sub {
+  margin-top: 1rem;
+  padding: 0.7rem 4rem;
+  background-color: #ffe3e3;
+  border: none;
+}
+.grow-last-before {
+  display: flex;
+}
+
+.hom-before .icon-sub:hover,
+.hom-before .icon-sub:visited {
+  color: #000;
+}
+
+/* *************WELCOME***********
+******************************* */
+.wel-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  position: relative;
+  padding-bottom: 6rem;
+
+  overflow: hidden;
+}
+.welcome-img {
+  width: 100%;
+}
+.well-church {
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  column-gap: 3rem;
+}
+
+.well-emp {
+  margin-top: 0.9rem;
+  background-color: #000;
+  width: 30%;
+}
+.wel-feat {
+  font-size: 1rem;
+}
+.wel-span {
+  padding-bottom: 1.1rem;
+}
+.wel-icon {
+  padding: 0.7rem 4rem;
+  border: 2px solid #495057;
+}
+
+.wel-icon:hover,
+.wel-icon:visited {
+  color: #fff;
+  background-color: #000;
+  border: none;
+}
+
+.wel-img::before {
+  content: " welcome to christ church";
+  text-transform: uppercase;
+  width: 40%;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+  color: #fff;
+  background-color: #15aabf;
+  display: flex;
+  flex-direction: column;
+  padding: 3.7rem 2.5rem;
+  padding-bottom: 6rem;
+  justify-content: start;
+  position: absolute;
+  bottom: -5%;
+  margin-top: 2rem;
+  left: 0;
+  overflow: hidden;
+  align-items: center;
+}
+
+.wel-sec {
+  padding: 0;
+}
+
+.welcome {
+  padding: 4rem 4rem 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.welcome span {
+  border-bottom: 2px solid #495057;
+}
+
+/* 
+**************Believe-Community*************
+******************************************** */
+
+.believe-head img {
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+}
+.believe-sub img {
+  width: 40%;
+}
+.believe-subset img {
+  width: 38%;
+  height: 130%;
+}
+.believe-comm {
+  position: relative;
+}
+.believe-comm::before {
+  content: "";
+  height: 98%;
+  width: 25%;
+  background-color: #15aabf;
+  display: block;
+  position: absolute;
+  top: -2%;
+
+  left: 50%;
+
+  transform: translate(-50%, 3%);
+  z-index: -1;
+}
+
+.comm-head {
+  color: #f2fbfc;
+  background-color: #343a40;
+}
+
+.believe-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+}
+.believe-subset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.select-community-head {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 1.5rem;
+}
+.believe-img {
+  row-gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.likee {
+}
+.b-1-part-h {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff4f4;
+  line-height: 2.8rem;
+  overflow: hidden;
+  padding: 1rem;
+}
+.head-icon {
+  display: none;
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.b-l-part {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 90%;
+}
+.believe-img .h-free {
+  overflow: hidden;
+  color: #f4fff7;
+  align-self: start;
+}
+
+.believe-last {
+  width: 100%;
+  background-color: #343a40;
+  height: 70%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.believe-img span {
+  border-bottom: 2px solid #fff4f4;
+}
+.believe-command {
+  padding: 6rem 4rem;
+  overflow: hidden;
+  display: flex;
+}
+
+/* **********footer********** */
+/* ************************** */
+
+.fs-1 {
+  color: #495057;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.fs-2 {
+  color: #6d7379;
+  font-size: 1.3rem;
+}
+
+.ff-3 {
+  color: #212529;
+  font: 1rem;
+}
+.media-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.ff-2 {
+  display: flex;
+  column-gap: 1rem;
+}
+.form-foot {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.6rem;
+}
+.foot-aside {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+.foot-button:hover,
+.foot-button:visited {
+  background-color: #1399ac;
+}
+
+.it {
+  padding: 1rem 1.3rem;
+  font-size: 1rem;
+  background-color: #e9ecef;
+  border: none;
+}
+.foot-button {
+  background-color: #15aabf;
+  border: none;
+  font-size: 0.9rem;
+  color: #fff;
+  padding: 1rem 3rem;
+  cursor: pointer;
+}
+.icon-sub {
+  cursor: pointer;
+}
+.h-free {
+  overflow: hidden;
+}
+
+.foot-body {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  column-gap: 3rem;
+  padding: 6rem 4rem;
+  justify-content: space-between;
+}
+.foot-main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7rem;
+}
+.foot-feat {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.3rem;
+}
+.foot-sub {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.2rem;
+}
